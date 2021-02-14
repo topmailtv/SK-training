@@ -1,0 +1,19 @@
+.container{
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: khaki;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+
+}
+.social{
+    list-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 10px;
+}
+#youtube:hover{
+    color: red;
+}
+
+
