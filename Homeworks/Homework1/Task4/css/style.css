@@ -1,0 +1,17 @@
+ul{
+    list-style-type: square ;
+}
+li:first-child {
+    color:red;
+}
+li:last-child{
+    color: rgb(55, 97, 14);
+    font-style: italic;
+}
+li{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
