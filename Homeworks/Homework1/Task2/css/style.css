@@ -1,19 +1,35 @@
-.container{
+.box{
     border: 1px solid grey;
     border-radius: 5px;
     background-color: khaki;
     width: 200px;
-    height: 200px;
+    height: 170px;
     align-items: center;
-
 }
 .social{
     list-style: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     height: 10px;
 }
 #youtube:hover{
     color: red;
+}
+#facebook:hover{
+    color: rgb(56, 6, 240);
+}
+#instagram:hover{
+    color: rgb(241, 127, 127);
+}
+#pinterest:hover{
+    color: red;
+}
+li{
+    padding: 5px;
+}
+a{
+    padding: 5px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
 
 
