@@ -12,7 +12,6 @@ li{
     text-align: center;
     vertical-align: middle;
     border: 1px solid rgb(179, 177, 177);
-    
 }
 li:nth-child(3){
     background: rgb(143, 235, 147);
