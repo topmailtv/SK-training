@@ -1,55 +1,28 @@
-#box{
-    width: 150px;
-    height: 150px;
-    overflow-y: scroll;
+#container{
+    display: flex;
+    width: 700px;
+    height: 300px;
     border: 1px solid grey;
-}
-body{
-    background-color: thistle;
-}
-#firstbox, #secondbox, #threebox{
-    border-width: 20px;
-    border-style: solid;
-    border-color: red;
-    width: 150px;
-    height: 150px;
-    margin: 5px;
-    border-radius: 40px 10px;
-}
-#secondbox{
-    border-color: yellow orange green blue; 
-    border-radius: 50%;
-}
-#threebox{
-    border-color: blue transparent orange green; 
-    width: 1px;
-    height: 1px; 
-    border-radius: 0px;
-}
-
-a[href]{
-    background-color: aquamarine;
-}
-a[target=_blank]{
-    background-color: greenyellow;
-}
-a:hover{
-    background-color: hotpink;
-}
-h1::after{
-    content: " - Hello word";
-}
-h1::first-letter{
-    color: indigo;
-}
-nav ul{
-    list-style: none;
     background-color: khaki;
+    /* flex-direction:row; 
+    flex-wrap:wrap; */
+    flex-flow:row wrap;
+    justify-content: space-around;
+    align-items: center;
 }
-ul li{
-    display: inline-block;
-border: 1px dotted grey;
-width: 100px;
-height: 20px;
-margin: 5px;
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 5px;
+    border: 1px solid grey;
+    flex-grow: 1;
+    /* flex-basis: 150px; */
+}
+#box1{
+    /* flex-grow: 2; */
+    /* flex-shrink: 4; */
+}
+#box2{
+    align-self: flex-end;
 }
