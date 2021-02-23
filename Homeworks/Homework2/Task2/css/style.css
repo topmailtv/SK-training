@@ -1,0 +1,14 @@
+.box{
+    width: 200px;
+    height: 400px;
+    margin: 50px;
+}
+li{
+    font-size: 20px;
+    list-style-type: none;
+}
+li::before{
+    content: '\25ba';
+    padding-right: 5px;
+    color: rgb(121, 16, 207);
+}

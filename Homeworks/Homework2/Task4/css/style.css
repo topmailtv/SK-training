@@ -1,0 +1,61 @@
+.content{
+    display: flex;
+    margin: 0px auto;
+    
+}
+.triangle1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+    margin: 10px;
+}
+.triangle2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    clip-path: polygon(0 0, 50% 100%, 100% 0%);
+    margin: 10px;
+}
+.triangle3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 50%);
+    margin: 10px;
+}
+.triangle4{
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    clip-path: polygon(100% 0%, 0% 50%, 100% 100%);
+    margin: 10px;
+}
+.triangle5{
+    width: 100px;
+    height: 100px;
+    background-color:yellow;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+    margin: 10px;
+}
+.triangle6{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+    margin: 10px;
+}
+.triangle7{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
+    margin: 10px;
+}
+.triangle8{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+    margin: 10px;
+}
