@@ -1,28 +1,49 @@
 .board{
-    width: 700px;
-    height: 200px;
+    width:610px;
+    height: 210px;
     background-color: grey;
     display:flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 .board__text{
     background-color: grey;
-    font-family: 'Courier New', Courier, monospace;
-    box-shadow: 5 5 5px rgb(85, 84, 84);
-    padding: 2px;
-    font-stretch: wider;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Anton', sans-serif;
+    color: grey;
+    /* padding: 2px; */
 }
-#drop_left{
-    width: 350px;
-    height: 200px;
+#drop_left_top{
+    width: 300px;
+    height: 90px;
     font-size: 5em;
     text-align: center;
     text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgb(83, 83, 83);
 }
-#drop_right{
-    width: 350px;
-    height: 200px;
+#drop_right_top{
+    width: 300px;
+    height: 90px;
     font-size: 5em;
     text-align: center;
     text-transform: uppercase;
+    text-shadow: 3px 3px 5px rgb(59, 59, 59);
+}
+#drop_left_bottom{
+    width: 300px;
+    height: 90px;
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgb(83, 83, 83);
+}
+#drop_right_bottom{
+    width: 300px;
+    height: 90px;
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px rgb(59, 59, 59);
 }
 
