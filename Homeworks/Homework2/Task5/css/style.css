@@ -1,28 +1,59 @@
+*{
+    padding: 0px;
+}
 .board{
-    width: 700px;
+    width:600px;
     height: 200px;
-    background-color: grey;
+    background-color: rgb(128, 128, 128);
     display:flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px;
+    position: relative;
 }
 .board__text{
     background-color: grey;
-    font-family: 'Courier New', Courier, monospace;
-    box-shadow: 5 5 5px rgb(85, 84, 84);
-    padding: 2px;
-    font-stretch: wider;
+    font-family: 'Anton', sans-serif;
+    color: grey;
 }
-#drop_left{
-    width: 350px;
-    height: 200px;
+#drop_left_top{
+    width: 300px;
+    height: 100px;
     font-size: 5em;
     text-align: center;
     text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgb(83, 83, 83);
+    z-index: 1;
 }
-#drop_right{
-    width: 350px;
-    height: 200px;
+#drop_right_top{
+    width: 300px;
+    height: 100px;
     font-size: 5em;
     text-align: center;
     text-transform: uppercase;
+    text-shadow: 3px 3px 5px rgb(59, 59, 59);
+    z-index: 2;
 }
+#drop_left_bottom{
+    width: 300px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgb(83, 83, 83);
+    position: absolute;
+    top: 40%; 
+}
+#drop_right_bottom{
+    width: 300px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase; 
+    text-shadow: 3px 3px 5px rgb(59, 59, 59);                                                                                       
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
 
