@@ -111,6 +111,15 @@
     flex: 1 1 auto;
 
 }
+.footer::after{
+    content: '';
+    position: absolute;
+    width: 1110px;
+    bottom:-610px;
+    height: 1px;
+    left:78px;
+    background-color:rgb(116, 114, 114);
+}
 .footer__row{
      display: flex; 
      flex-wrap: wrap;
@@ -118,38 +127,85 @@
     justify-content: space-between;
 } 
 .footer__bottom_logo{
-    flex: 0 1 33%;
+    flex: 0 1 25%;
     text-align: left;
-}
-.footer__bottom_list{
-    flex: 0 1 30%;
-    text-align: center;
-}
-.footer__bottom_sendmail{
-    flex: 0 1 33%;
-    text-align: right;
-}
-.footer__bottom_list2{
-    flex: 0 1 45%;
-    text-align: left;
-}
-.footer__social_box{
-    flex: 0 1 45%;
-    display: inline-flex;
-    text-align: right;
-    
 }
 .footer__bottom_list li{
     display: inline-flex;
     text-decoration: none;
     color:white;
+    font-size: 14px;
 }
+.footer__bottom_list li{
+    flex: 0 1 40%;
+    text-align: center;
+    margin: 0px 10px;
+    font-size: 16px;
+}
+.footer__bottom_list li:hover{
+    color:rgb(58, 56, 56);
+}
+
+.footer__bottom_sendmail{
+    flex: 0 1 35%;
+    text-align: right;
+}
+#footer_mailfield{
+    width: 200px;
+    height: 29px;
+    margin: 0px 10px 0px 0px; 
+    border: 0px;
+}
+#footer_sendbtn{
+    background: rgb(221, 193, 153);
+    width: 60px;
+    height: 30px;
+    color:white;
+    font-size: 12px;
+    border: 0px;
+}
+
+.footer__bottom_list2{
+    flex: 0 1 50%;
+    text-align: left;
+    padding: 0px;
+}
+.footer__bottom_list2 li:hover{
+    color:white;
+}
+.footer__bottom_list li:nth-child(1){
+    margin: 0px 10px 0px 0px;
+}
+.footer__bottom_list li:nth-child(4){
+    margin: 0px 0px 0px 10px;
+}
+.footer__social_box{
+    flex: 0 1 50%;
+    display: inline-flex;
+    text-align: right;
+    justify-content: flex-end;
+    
+}
+
+.footer__social_facebook{
+    margin: 0px 0px 0px 10px;
+    }
 .footer__bottom_list2 li{
     display: inline-flex;
     text-decoration: none;
-    color:rgb(82, 82, 82);
+    color:rgb(58, 56, 56);
+    margin: 0px 10px;
+    font-size: 14px;
 }
+.footer__bottom_list2 li:nth-child(1){
+    margin: 0px 10px 0px 0px;
+}
+
 .footer__social_facebook, .footer__social_instagram,.footer__social_twitter,.footer__social_google {
-    padding: 0px 5px;
-    margin: 0px 5px;
+    margin: 0px 10px;
+ 
+}
+.footer__social_facebook:hover, .footer__social_instagram:hover,.footer__social_twitter:hover,.footer__social_google:hover {
+   color:white;
+ 
 }
