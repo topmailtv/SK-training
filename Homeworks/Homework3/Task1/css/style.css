@@ -1,5 +1,12 @@
+
+
 .body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+}
+p{
+    color: rgb(117, 116, 116);
+    font-size: 1em;
+    font-family: 'Fira Sans', sans-serif;
 }
 .wrapper{
     min-height: 100%;
@@ -19,10 +26,10 @@
     justify-content: space-between;
     height: 120px;
     align-items: center;
-    /* border: 1px solid grey; */
+   
 }
 .header__menu{
-    /* border: 3px solid red; */
+    
     flex: 0 1 33.333%;
     text-align: center;
     
@@ -66,12 +73,14 @@
 }
 .placeholder__item_text{
     flex: 0 1 100%;
+    padding: 10px 0px 50px 0px;
 }
 .placeholder2__row{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 0px 50px 0px;
 }
 .placeholder2__img {
     flex: 0 1 33.333%;
@@ -100,12 +109,90 @@
 .placeholder2__item_text{
     flex: 0 1 50%;
     text-align: left;
+    margin: 20px 10px 10px 0px;
 }
 .placeholder2__item_button{
     flex: 0 1 50%;
     text-align: right;
+    margin: 20px 0px 10px -20px;
+}
+#placeholder2_sendbtn{
+    background: rgb(240, 168, 69);
+    width: 160px;
+    height: 30px;
+    color:white;
+    font-size: 12px;
+    border: 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
 }
 
+.awwards__row{
+    display: flex;
+  
+}
+.awwards__logo{
+   padding: 5px 50px 5px 0px;
+   text-transform: uppercase;
+   font-size: 0.7em;
+   letter-spacing: 2px;
+}
+.awwards__column_left{
+    display: flex;
+    width: 40%;
+}
+.awwards__column_right{
+display: flex;
+   flex-direction: column;
+   padding: 0px;
+}
+.awwards__box{
+    display: flex;
+    margin: 0px 0px 20px 0px;
+}
+.awwards__title{
+    flex: 0 1 50%;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 32px;
+    font-style: normal;
+}
+.awwards__subtitle{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.awwards__subtitle_title {
+    padding: 0px 10px;
+    margin: 0px 20px 20px 30px;
+    font-weight:500;
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: Fira Sans;
+font-style: normal;
+line-height: 24px;
+color: black;
+
+}
+.awwards__subtitle_text{
+    padding: 0px 10px;
+    margin: 0px 30px;
+    
+}
+.awwards__date{
+  padding: 0px;
+    margin: 0px;
+    flex: 0 1 20%;
+    font-size:18px;
+    text-align: right;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 28px;
+    font-style: normal;
+}
 .footer{
     background-color: grey;
     flex: 1 1 auto;
@@ -129,6 +216,12 @@
 .footer__bottom_logo{
     flex: 0 1 25%;
     text-align: left;
+    
+}
+.footer__bottom_logo{
+   font-size: 22px;
+    color: white;
+  
 }
 .footer__bottom_list li{
     display: inline-flex;
@@ -163,6 +256,8 @@
     color:white;
     font-size: 12px;
     border: 0px;
+    letter-spacing: 2px;
+    text-align: center;
 }
 
 .footer__bottom_list2{
