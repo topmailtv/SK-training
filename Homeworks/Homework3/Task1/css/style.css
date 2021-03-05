@@ -181,7 +181,6 @@ color: black;
 .awwards__subtitle_text{
     padding: 0px 10px;
     margin: 0px 30px;
-    
 }
 .awwards__date{
   padding: 0px;
@@ -192,6 +191,94 @@ color: black;
     font-family: 'Fira Sans', sans-serif;
     line-height: 28px;
     font-style: normal;
+}
+.clients__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.clients__block{
+    padding: 0 0 20px 0; 
+}
+.clients__topbox{
+    display: flex;
+    flex: 0 1 100%;
+    justify-content: center;
+}
+.clients__content_text{
+    flex: 0 1 40%;
+    
+}
+.clients__block .clients__block_top{
+    flex: 0 1 100%;
+}
+.clients__block .clients__block_left{
+    flex: 0 1 50%;
+     
+}
+.clients__block .clients__block_right{
+    flex: 0 1 50%;
+   
+}
+.clients__logo{
+    display: flex;
+    flex: 0 1 100%;
+    justify-content: space-between;
+    margin: 40px 0 80px 0 ;
+}
+.clients__box{
+    flex: 0 1 5%;
+    text-align:center;
+    font-size: 70px;
+    color: rgb(145, 143, 143);
+    
+}
+.clients__box_1:hover, .clients__box_2:hover,.clients__box_3:hover,.clients__box_4:hover,.clients__box_5:hover{
+    color:black;
+}
+.clients__topbox{
+    flex: 0 1 30%;
+    
+}
+.clients__block_top{
+    flex: 0 1 100%;
+}
+.clients__block_left{
+    flex: 0 1 50%;
+}
+.clients__block_right{
+    display: flex;
+    flex: 0 1 50%;
+    flex-direction: column;
+}
+.clients__content_logo{
+       
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: -1px;
+    text-align: left;
+
+}
+.clients__content_title{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 4px;
+    text-align: left;
+}
+.clients__content_text{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+
 }
 .footer{
     background-color: grey;
@@ -221,6 +308,7 @@ color: black;
 .footer__bottom_logo{
    font-size: 22px;
     color: white;
+    font-family: 'Fira Sans', sans-serif;
   
 }
 .footer__bottom_list li{
