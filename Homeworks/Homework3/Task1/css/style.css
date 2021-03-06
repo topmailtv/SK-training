@@ -1,8 +1,3 @@
-
-
-.body{
-    font-family: 'Fira Sans', sans-serif;
-}
 p{
     color: rgb(117, 116, 116);
     font-size: 1em;
@@ -26,13 +21,16 @@ p{
     justify-content: space-between;
     height: 120px;
     align-items: center;
-   
+}
+.header__menu_logo{
+    font-size: 22px;
+     color: rgb(65, 62, 62);
+     font-family: 'Fira Sans', sans-serif;
+     font-weight: 500;
 }
 .header__menu{
-    
     flex: 0 1 33.333%;
     text-align: center;
-    
 }
 .header__menu_logo{
     text-align: left;
@@ -42,11 +40,33 @@ p{
 }
 .header__menu_burger{
     text-align: right;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+}
+.header__menu_burger span{
+    position: absolute;
+    background-color: black;
+    right: 0;
+    width: 10px;
+    height: 1px;
+    top:10px;
+}
+.header__menu_burger::before{
+    top: 0;
+    content:'';
+    background-color: black;
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    right:0;
 }
 .header2__row{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 0 30px 0;
 }
 .header2__brending{
     flex: 0 1 50%;
@@ -58,18 +78,18 @@ p{
     align-self: flex-end;
 }
 .header2__social_facebook, .header2__social_instagram,.header2__social_twitter,.header2__social_google {
-    padding: 5px;
-    margin: 5px;
+    padding: 5px 0 5px 5px;
+    margin: 5px 0 5px 5px;
+}
+.header2__social_facebook:hover, .header2__social_instagram:hover,.header2__social_twitter:hover,.header2__social_google:hover {
+    color:rgb(92, 91, 91);
 }
 .placeholder__row{
     display: flex;
     flex-wrap: wrap;
-    /* border: 1px solid black; */
 }
 .placeholder__big_img{
     flex: 0 1 100%;
-    /* width: 100%;
-    height: auto; */
 }
 .placeholder__item_text{
     flex: 0 1 100%;
@@ -79,14 +99,13 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
     margin: 0px 0px 50px 0px;
 }
 .placeholder2__img {
     flex: 0 1 33.333%;
-    
 }
-/* .placeholder2__button{
+.placeholder2__button{
     width: 60px;
     height: 60px;
     border: 1px solid rgb(255, 255, 255);
@@ -102,10 +121,10 @@ p{
     background-color: red;
     clip-path: polygon(0% 0%, 0% 100%, 100% 50%);
     position:relative;
-    z-index: 4;
+    z-index: 5;
     top: -308px;
     left: 177px;
-} */
+}
 .placeholder2__item_text{
     flex: 0 1 50%;
     text-align: left;
@@ -127,7 +146,21 @@ p{
     letter-spacing: 2px;
     text-align: center;
 }
-
+.placeholder2_line{
+    display: block;
+    position: relative;
+    width: 1110px;
+    height: 2px;
+}
+.placeholder2_line span{
+    content: '';
+    position: absolute;
+    width: 1110px;
+    top: 0px;
+    height: 1px;
+    left:0px;
+    background-color:rgb(204, 202, 202);
+}
 .awwards__row{
     display: flex;
   
@@ -162,8 +195,6 @@ display: flex;
 .awwards__subtitle{
     display: flex;
     flex-direction: column;
-    
-    
 }
 .awwards__subtitle_title {
     padding: 0px 10px;
@@ -173,17 +204,16 @@ display: flex;
     letter-spacing: 4px;
     text-transform: uppercase;
     font-family: Fira Sans;
-font-style: normal;
-line-height: 24px;
-color: black;
-
+    font-style: normal;
+    line-height: 24px;
+    color: black;
 }
 .awwards__subtitle_text{
     padding: 0px 10px;
     margin: 0px 30px;
 }
 .awwards__date{
-  padding: 0px;
+    padding: 0px;
     margin: 0px;
     flex: 0 1 20%;
     font-size:18px;
@@ -206,7 +236,6 @@ color: black;
 }
 .clients__content_text{
     flex: 0 1 40%;
-    
 }
 .clients__block .clients__block_top{
     flex: 0 1 100%;
@@ -217,7 +246,6 @@ color: black;
 }
 .clients__block .clients__block_right{
     flex: 0 1 50%;
-   
 }
 .clients__logo{
     display: flex;
@@ -230,14 +258,12 @@ color: black;
     text-align:center;
     font-size: 70px;
     color: rgb(145, 143, 143);
-    
 }
 .clients__box_1:hover, .clients__box_2:hover,.clients__box_3:hover,.clients__box_4:hover,.clients__box_5:hover{
     color:black;
 }
 .clients__topbox{
     flex: 0 1 30%;
-    
 }
 .clients__block_top{
     flex: 0 1 100%;
@@ -251,7 +277,6 @@ color: black;
     flex-direction: column;
 }
 .clients__content_logo{
-       
     font-family: 'Fira Sans', sans-serif;
     font-size: 40px;
     font-style: normal;
@@ -259,7 +284,6 @@ color: black;
     line-height: 50px;
     letter-spacing: -1px;
     text-align: left;
-
 }
 .clients__content_title{
     font-family: 'Fira Sans', sans-serif;
@@ -278,20 +302,24 @@ color: black;
     line-height: 28px;
     letter-spacing: 0px;
     text-align: left;
-
 }
 .footer{
-    background-color: grey;
+    background-color: rgb(87, 85, 85);
     flex: 1 1 auto;
-
 }
-.footer::after{
+.footer_line{
+    display: block;
+    position: relative;
+    width: 1110px;
+    height: 2px;
+}
+.footer_line span{
     content: '';
     position: absolute;
     width: 1110px;
-    bottom:-610px;
+    top: 0px;
     height: 1px;
-    left:78px;
+    left:0px;
     background-color:rgb(116, 114, 114);
 }
 .footer__row{
@@ -303,13 +331,11 @@ color: black;
 .footer__bottom_logo{
     flex: 0 1 25%;
     text-align: left;
-    
 }
 .footer__bottom_logo{
    font-size: 22px;
     color: white;
     font-family: 'Fira Sans', sans-serif;
-  
 }
 .footer__bottom_list li{
     display: inline-flex;
@@ -324,7 +350,7 @@ color: black;
     font-size: 16px;
 }
 .footer__bottom_list li:hover{
-    color:rgb(58, 56, 56);
+    color:rgb(133, 130, 130);
 }
 
 .footer__bottom_sendmail{
@@ -347,7 +373,6 @@ color: black;
     letter-spacing: 2px;
     text-align: center;
 }
-
 .footer__bottom_list2{
     flex: 0 1 50%;
     text-align: left;
@@ -367,26 +392,26 @@ color: black;
     display: inline-flex;
     text-align: right;
     justify-content: flex-end;
-    
 }
-
 .footer__social_facebook{
     margin: 0px 0px 0px 10px;
     }
 .footer__bottom_list2 li{
     display: inline-flex;
     text-decoration: none;
-    color:rgb(58, 56, 56);
+    color:rgb(133, 130, 130);
     margin: 0px 10px;
     font-size: 14px;
 }
 .footer__bottom_list2 li:nth-child(1){
     margin: 0px 10px 0px 0px;
 }
-
-.footer__social_facebook, .footer__social_instagram,.footer__social_twitter,.footer__social_google {
+.footer__social_instagram,.footer__social_twitter,.footer__social_google {
     margin: 0px 10px;
  
+}
+.footer__social_facebook{
+    margin: 0 0 0 10px;
 }
 .footer__social_facebook:hover, .footer__social_instagram:hover,.footer__social_twitter:hover,.footer__social_google:hover {
    color:white;
