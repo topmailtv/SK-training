@@ -1,31 +1,34 @@
 section{
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.section1 .col-3{
+    padding: 0;
 }
 .nav-link {
     /* Style for "home" */
-height: 9px;
-color: #191919;
-font-family: Montserrat;
-font-size: 12px;
-font-weight: 500;
-font-style: normal;
-letter-spacing: normal;
-line-height: 24px;
-text-align: left;
-text-transform: uppercase;
+    height: 9px;
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
 /* Text style for "home" */
 
 /* Text style for "about" */
-font-style: normal;
-letter-spacing: 1.2px;
-line-height: normal;
+    font-style: normal;
+    letter-spacing: 1.2px;
+    line-height: normal;
 }
 .nav-link:nth-child(1){
     color: #10c9c3;
-font-style: normal;
-letter-spacing: 1.2px;
-line-height: normal;
+    font-style: normal;
+    letter-spacing: 1.2px;
+    line-height: normal;
 
 }
 .col-12{
@@ -34,4 +37,83 @@ line-height: normal;
 .progress-bar{
     height: 3px;
 
+}
+.block{
+    background-color: #10c9c3;
+}
+
+.card{
+    background-color: #10c9c3;
+    border: none;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    /* Text style for "projects c" */
+    font-style: normal;
+    letter-spacing: 1.2px;
+    line-height: normal;
+}
+.card-img{
+    width: 45px;
+    height: 45px;
+    
+}
+.card-title{
+    font-size: 18px;
+    margin: 0 0 5x;
+}
+.card-text{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.col-md-4{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+.card-body{
+    padding: 0 ;
+    // height: 40px;
+}
+// .img-thumbnail{
+//     width: 200%;
+// }
+.col-3{
+    padding: 0;
+}
+.btn-primary {
+    background-color: white;
+    border-color:white;
+    color: #8e8e8e;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    /* Text style for "load more" */
+    font-style: normal;
+    letter-spacing: 1.2px;
+    line-height: normal;
+    border-radius: 0;
+    margin: 10px 0;
+}
+.btn-primary:hover{
+    background-color: #8e8e8e;
+    color:white;
+    border-color: #8e8e8e;
+}
+.img-look{
+    z-index: 100;
+}
+.card-img-top{
+    width: 45px;
+    height: 45px;
 }
