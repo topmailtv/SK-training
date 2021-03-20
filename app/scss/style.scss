@@ -1,12 +1,8 @@
-section{
+section {
     padding-top: 75px;
     padding-bottom: 75px;
 }
-.section1 .col-3{
-    padding: 0;
-}
 .nav-link {
-    /* Style for "home" */
     height: 9px;
     color: #191919;
     font-family: Montserrat;
@@ -17,9 +13,6 @@ section{
     line-height: 24px;
     text-align: left;
     text-transform: uppercase;
-/* Text style for "home" */
-
-/* Text style for "about" */
     font-style: normal;
     letter-spacing: 1.2px;
     line-height: normal;
@@ -29,14 +22,12 @@ section{
     font-style: normal;
     letter-spacing: 1.2px;
     line-height: normal;
-
 }
 .col-12{
     text-align: center;
 }
 .progress-bar{
     height: 3px;
-
 }
 .block{
     background-color: #10c9c3;
@@ -45,7 +36,6 @@ section{
     border: none;
 }
 .no-gutters{
-
     background-color: #10c9c3;
     border-color: #10c9c3;
     color: #ffffff;
@@ -57,7 +47,6 @@ section{
     line-height: 30px;
     text-align: left;
     text-transform: uppercase;
-    /* Text style for "projects c" */
     font-style: normal;
     letter-spacing: 1.2px;
     line-height: normal;
@@ -89,14 +78,14 @@ section{
     margin: 0;
 }
 .card{
-   text-align: center;
-   border: none;
-   background-color: inherit;
+    text-align: center;
+    border: none;
+    background-color: inherit;
 }
 .card-deck{
     margin: 20px 0;
 }
-.btn-primary {
+.btn-secondary {
     background-color: white;
     border-color:white;
     color: #8e8e8e;
@@ -107,19 +96,31 @@ section{
     letter-spacing: normal;
     line-height: normal;
     text-transform: uppercase;
-    /* Text style for "load more" */
     font-style: normal;
     letter-spacing: 1.2px;
     line-height: normal;
     border-radius: 0;
     margin: 10px 0;
 }
-.btn-primary:hover{
+.btn-secondary:hover{
     background-color: #8e8e8e;
     color:white;
     border-color: #8e8e8e;
 }
-
+.btn-primary {
+    background-color:#10c9c3;
+    border-color:#10c9c3;
+    color: white;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1.2px;
+    text-align: left;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-style: normal;
+}
 .card-img-top{
     width: 45px;
     height: 45px;
@@ -127,16 +128,42 @@ section{
 }
 .carousel{
     height: 200px;
-    //width: 700px;
-   
 }
 .block3{
     background-color: #141414;
+   
 }
 .carouselExampleSlidesOnly{
     display: flex;
     justify-content: space-between;
 }
- 
-
-
+h2{
+    margin-bottom: 20px;
+}
+.div-col1{
+    color: white;
+}
+.nav-link.footer {
+    color: #bcbcbc;
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0.07px;
+    text-transform: inherit;
+} 
+.base-img{
+    position: relative;
+} 
+.img-look .look{
+    position: absolute;
+    width: 20%;
+    height: auto;
+    top: 42%;
+    left: 42%;
+    
+}
