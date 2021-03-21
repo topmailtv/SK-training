@@ -32,6 +32,12 @@ section {
 .block{
     background-color: #10c9c3;
 }
+.container.clients{
+    padding: 75px 0;
+}
+.div-button{
+    padding: 15 0 75px;
+}
 .mb-3{
     border: none;
 }
@@ -59,10 +65,38 @@ section {
 .card-title{
     font-size: 18px;
     margin: 0 0 5x;
+    text-transform: uppercase;
+    font-family: Montserrat; 
+}
+.card-title.slogan{
+    color: #ffffff;
+    text-transform:none;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: center;
 }
 .card-text{
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.card-text.block{
+    color: #ffffff;
+    font-family: Montserrat;
     font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: left;
     text-transform: uppercase;
+    /* Text style for "projects c" */
+    font-style: normal;
+    letter-spacing: 1.2px;
+    line-height: normal;
 }
 .col-md-4{
     width: 40px;
@@ -131,7 +165,6 @@ section {
 }
 .block3{
     background-color: #141414;
-   
 }
 .carouselExampleSlidesOnly{
     display: flex;
@@ -155,7 +188,10 @@ h2{
     font-style: normal;
     letter-spacing: 0.07px;
     text-transform: inherit;
-} 
+}
+.nav-link.footer:hover,  .nav-link.footer.active:hover{
+    font-size: 16px;
+}  
 .base-img{
     position: relative;
 } 
@@ -165,5 +201,4 @@ h2{
     height: auto;
     top: 42%;
     left: 42%;
-    
 }
